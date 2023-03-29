@@ -27,19 +27,25 @@ class Form {
   }
 
   handleMousePressed() {
-    this.playButton.mousePressed(() => {
-      this.input.hide();
-      this.playButton.hide();
+    //Utilize 'mousePressed' para quando o botão for pressionado com o mouse
+    this.playButton.???(() => {
+      //Utilize 'hide' para ocultar
+      this.input.???();
+      this.playButton.???();
+      //Utilize 'value' para colocar o nome do jogador que foi adicionado na caixa de texto
       var message = `
-      Olá, ${this.input.value()}
+      Olá, ${this.input.???()}
       </br>espere o outro jogador entrar...`;
       this.greeting.html(message);
     });
   }
 
   display() {
-    this.setElementsPosition();
-    this.setElementsStyle();
-    this.handleMousePressed();
+    //Utilize a função que define a posição dos elementos
+    this.????();
+    //Utilize a função que define o estilo dos elementos
+    this.????();
+    //Utilize a função que define o algoritmo quando o mouse for pressionado
+    this.????();
   }
 }
